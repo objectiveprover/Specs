@@ -9,6 +9,7 @@ The `whodis` command response must contain at least the following fields:
 
 ```
 type: "whodis-info"
+exec: ""
 version: "1.0"
 description: ""
 service_args: ""
@@ -17,7 +18,6 @@ health_check: ""
 config_path: ""
 env_path: ""
 data_path: ""
-bin_path: ""
 ```
 
 - The `whodis` subcommand prints the description above as a plain string on stdout and exits 0.
